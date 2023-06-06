@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Technology</title>
+	<style type="text/css">
+		a,
+		a:hover,
+		a:active {
+			text-decoration: none;
+			display: block;
+        	width: 200px;
+        	height: 20px;
+        	margin-top: 15px;
+        	margin-left: 30px;
+        	white-space: nowrap;
+        	font-size: 20px;
+        	font-weight: bold;
+        	color: black;
+
+		}
+		h1 {
+			text-align: center;
+		}
+		hr {
+			border: none;
+        	border-top: 1px solid #ccc;
+        	margin: 10px auto;
+        	max-width: 1000px;
+		}
+		h3 {
+			
+			margin: auto;
+			margin-top: 100px;
+			text-align: center;
+		}
+		.main p {
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		.main .feature {
+			text-align: center;
+		}
+
+		.main .feature div{
+			display: inline-block;
+			width: 20%;
+			height: 300px;
+   			text-align: center;
+	    	padding: 10px;
+    		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    		border-radius: 10px;
+    		transition: 0.5s;
+    		margin-top: 50px;
+    		overflow: hidden;
+
+		}
+		.main .feature h4{
+			text-align: center;
+
+		}
+		.main .feature .first:hover{
+    		transform: translateY(-20px);
+		}
+		table {
+			width: 800px;
+  			border: 1px solid black;
+  			border-collapse: collapse;
+  			padding: 10px;
+	  		margin: 50px auto 0; 
+	  	}
+
+		th {
+  			border: 1px solid black;
+  			height: 30px;
+  			background-color: gray;
+		}
+
+
+		td {
+			border: 1px solid black;
+  			padding: 10px;
+		}
+
+		th:hover,
+		td:hover {
+  			background-color: lightgray;
+		}
+
+		img {
+			display: block;
+			margin: 50px auto;
+		}
+
+		button {
+			display: flex;
+  			justify-content: center;
+  			margin: 50px auto 0;
+  			padding: 10px;
+  			background-color: white;
+  			border-radius: 10px;
+  			border:3px solid gray;
+  			margin-bottom: 200px;
+		}
+
+		button:hover {
+			background-color: lightblue;
+			cursor: pointer;
+		}
+
+		.title {
+			width: 500px; 
+			margin: 100px auto; 
+			color: #232323; 
+			background: #E4FCFF; 
+			border-left: solid 10px #1DC1D6;"
+		}
+
+		.title > p{
+			font-weight: bold; 
+			text-align: center;
+		}
+
+		.detail {
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		.detail > details{
+			margin: 30px;
+		}
+
+		.detail > hr {
+			border: none;
+        	border-top: 1px solid #ccc;
+        	margin: 10px auto;
+        	max-width: 800px;
+		}
+
+
+	</style>
+	<script type="text/javascript">
+		function load(){
+			window.location = "https://about.meta.com/ko/";
+		}
+	</script>
+
+</head>
+<body>
+	<a href="index.html">Frond-End Developer</a>
+	<h1>React</h1>
+	<hr>
+	<h3>사용자 인터페이스를 만들기 위한 JavaScript 라이브러리</h3>
+	<div class=main>
+		<p>Facebook 소프트웨어 엔지니어 Jordan Walke(opens new window)에 의해 탄생한<br> 
+		React(opens new window)는 2013년 5월 열린 JSConf US에서 오픈 소스화 되었습니다.<br>
+		( 2011년 라이브러리 개발 → Facebook 뉴스 피드 → 2012년 Instagram 서비스에 반영 )</p>
+		<h3>Feature</h3>
+		<div class=feature>
+			<div class=first>
+				<h4>선언형</h4>
+				<p>React는 상호작용이 많은 UI를 만들 때 생기는 어려움을 줄여줍니다.
+				애플리케이션의 각 상태에 대한 간단한 뷰만 설계하세요.
+				그럼 React는 데이터가 변경됨에 따라 적절한 컴포넌트만 효율적으로 갱신하고 렌더링합니다.<br>
+				선언형 뷰는 코드를 예측 가능하고 디버그하기 쉽게 만들어 줍니다.</p>
+			</div>
+			<div class=first>
+				<h4>컴포넌트 기반</h4>
+				<p>스스로 상태를 관리하는 캡슐화된 컴포넌트를 만드세요. 그리고 이를 조합해 복잡한 UI를 만들어보세요.<br>
+				컴포넌트 로직은 템플릿이 아닌 JavaScript로 작성됩니다. 따라서 다양한 형식의 데이터를 앱 안에서 손쉽게 전달할 수 있고, DOM과는 별개로 상태를 관리할 수 있습니다.</p>
+			</div>
+			<div class=first>
+				<h4>한 번 배워서 어디서나 사용하기</h4>
+				<p>기술 스택의 나머지 부분에는 관여하지 않기 때문에, 기존 코드를 다시 작성하지 않고도 React의 새로운 기능을 이용해 개발할 수 있습니다.<br>
+				React는 Node 서버에서 렌더링을 할 수도 있고, React Native를 이용하면 모바일 앱도 만들 수 있습니다.</p>
+			</div>
+			
+		</div>
+		<h3>React의 발전사 요약</h3>
+		<table>
+			<thead>
+				<th>년도</th><th>요약</th>
+				<tr><td>2010</td><td>XHP(PHP용 HTML 컴포넌트 프레임 워크>(opens new window),<br>E4X(ECMAScript for XML, 현재 사용 ✘)(opens new window)영향</td></tr>
+				<tr><td>2011</td><td>FaxJS(opens new window)프로토타입</td></tr>
+				<tr><td>2012</td><td>React 개명</td></tr>
+				<tr><td>2013</td><td>React 공개 (JSConf US)</td></tr>
+				<tr><td>2014</td><td>React Developer Tools, React Hot Loader 공개</td></tr>
+				<tr><td>2015</td><td>ES6 class 지원, React Native 공개</td></tr>
+				<tr><td>2016</td><td>v0.14 → v15.0 업데이트, innerHTML → document.createElement 방법으로 대체</td></tr>
+				<tr><td>2017</td><td>React v16.0 업데이트,Fiber(재조정 핵심 알고리즘)(opens new window)공개</td></tr>
+				<tr><td>2019</td><td>React Hooks 공개</td></tr>
+			</thead>
+		</table>
+		<h3>React 더 알아보기</h3>
+		<div class=button>
+			<button type="button" onclick="window.open('https://react.dev/blog/2023/03/16/introducing-react-dev');"> React 홈페이지 바로가기</button>
+		</div>
+		<img id="img" src="./image/meta.png" width="400px" height="250px">
+		<h3>미국의 종합 IT기업 Meta</h3>
+		<p>2004년 페이스북(Facebook.ICC.)으로 설립되어 2021년 10월 28일 현재 Meta로 사명을 변경하였다.</p>
+		<p>현재 메타버스 육성을 신사업의 주요 목표로 보고 있다.</p>
+		<h3>Meta의 주요 사업</h3>
+		<table>
+			<thead>
+				<th>FaceBook</th><th>Messenger</th><th>Instargram</th><th>WhatsApp</th><th>Reality Labs</th>
+				<tr><td><img id="img" src="./image/facebook.png"></td> 
+					<td><img id="img" src="./image/messenger.png"></td> 
+					<td><img id="img" src="./image/instargram.png"></td> 
+					<td><img id="img" src="./image/whatsapp.png"></td> 
+					<td><img id="img" src="./image/labs.png"></td></tr>
+			</thead>
+		</table>
+		<div class="title">
+		<p>Connection is evolving and so are we.<br>
+		연결의 방식은 진화합니다. 그리고 저희도 변화합니다.</p></div>
+		<p>2004년에 세상에 공개된 Facebook은 사람들이 소통하는 방식을 바꾸어놓았습니다.<br> 
+			나아가 Messenger, Instagram, WhatsApp과 같은 앱은<br> 
+			전 세계 수십억 명의 사람들에게 효과적인 도구가 되어주었습니다.<br>
+			이제 Meta는 2차원 화면을 넘어 증강 현실, 가상 현실과 같은 몰입형 경험에서<br>
+		소셜 테크놀로지의 차세대 혁신을 만들어갈 것입니다.</p>
+		<h3>Meta의 원칙</h3>
+		<div class="detail">
+		<details>
+			<summary>사람들에게 목소리를 선사합니다.</summary>
+			<p>사람들은 누구나 목소리를 내고 의견을 제시할 수 있어야 합니다.<br> 설사 다른 사람들이 본인과는 반대되는 의견을 가졌다 하더라도 그들의 권리까지 옹호할 수 있어야 합니다.</p>
+		</details>
+		<hr>
+		<details>
+			<summary>사람들을 연결하고 커뮤티티를 만듭니다.</summary>
+			<p>Meta의 서비스는 사람들이 서로 소통하고, 한발 더 나아가 서로 더욱 가까워질 수 있도록 도와줍니다.</p>
+		</details>
+		<hr>
+		<details>
+			<summary>모두를 위한 서비스를 제공합니다.</summary>
+			<p>Meta는 모두가 사용할 수 있는 기술을 만들고자 노력하며, 무료로 서비스를 제공할 수 있도록 광고를 비즈니스 모델로 채택하고 있습니다.</p>
+		</details>
+		<hr>
+		<details>
+			<summary>사람들의 안전과 개인정보를 보호합니다</summary>
+			<p>Meta는 사람들을 안전하게 보호하고 피해를 방지하여 모두가 함께 가치 있는 일을 할 수 있도록 지원할 책임이 있습니다.</p>
+		</details>
+		<hr>
+		<details>
+			<summary>경제적 기회를 촉진합니다.</summary>
+			<p>Meta의 도구들은 비즈니스가 성장하며 일자리를 창출하여 경제가 성장할 수 있도록 공정한 경쟁의 장을 마련해줍니다.</p>
+		</details>
+		<hr>
+		</div>
+		<h3>Meta 더 알아보기</h3>
+		<button onclick="load()">Meta 홈페이지 바로가기</button>
+	</div>
+
+
+
+</body>
+</html>

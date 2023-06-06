@@ -1,0 +1,219 @@
+@import url(cssscreen.css) screen;
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+<style>
+    /* 상단탭 */
+    #nav {
+        height: 60px;
+        width: 100vw;
+        line-height: 30px;
+        position: sticky;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    #nav .top {
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    #nav .top h3 {
+        display: block;
+        width: 200px;
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 30px;
+        white-space: nowrap;
+        color: black;
+    }
+
+    #nav .top h3 > a,
+    #nav .top h3 > a:hover,
+    #nav .top h3 > a:active {
+        color: black;
+    }
+
+    #nav .top .menu {
+        display: flex;
+        margin-left: auto;
+        margin-top: 12px;
+        margin-right: 10px;
+    }
+
+    #nav .top .menu > a {
+        display: block;
+        font-size: 14px;
+        height: 100%;
+        margin-right:10px;
+        color: #333;
+        padding: 10px 5px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+    }
+
+    #nav .top .menu > a:hover{
+        opacity: 1;
+        transform: scale(1);
+        outline: 2px solid gray;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 10px auto;
+        max-width: 1000px;
+    }
+
+    /*배너*/
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    /*내용*/
+    h1{
+        margin-top: 200px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #developer > img {
+        margin-top:100px;
+    }
+
+    #developer > p{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #motivation > p{
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #history > p{
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #list {
+        margin: 50px auto;
+
+    }
+
+    .ex {
+        display: block;
+        margin-top: 100px;
+    }
+
+    .ex > p {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .ex > img {
+        display: block;
+        margin: 100px auto;
+    }
+
+    .container > a{
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        color: black;
+    }
+
+    .git {
+         text-align: center;
+    }
+
+    /*타임라인*/
+
+    ul,
+    li {
+        list-style: none;
+        padding: 0;
+    }
+
+    .wrapper {
+        max-width: 800px;
+        background: #eaf6ff;
+        padding: 32px;
+        border-radius: 15px;
+        margin: 50px auto;
+    }
+
+    .sessions {
+        margin-top: 32px;
+        border-radius: 12px;
+        position: relative;
+    }
+
+    li {
+        padding-bottom: 24px;
+        border-left: 1px solid #abaaed;
+        position: relative;
+        padding-left: 20px;
+        margin-left: 10px;
+    }
+
+    li:last-child {
+        border: 0;
+        padding-bottom: 0;
+    }
+
+    li:before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background: white;
+        border: 1px solid #4e5ed3;
+        box-shadow: 3px 3px 0 #bab5f8;
+        border-radius: 50%;
+        position: absolute;
+        left: -10px;
+        top: 0;
+    }
+    
+    .head {
+        color: #2a2839;
+        font-weight: bold;
+    }
+
+    p {
+        color: #4f4f4f;
+        line-height: 1.5;
+        margin-top: 6.4px;
+    }
+
+    /*footer*/
+
+    footer div {
+        text-align: center;
+
+    }
+
+
+
+
+
+
+</style>
+
+
